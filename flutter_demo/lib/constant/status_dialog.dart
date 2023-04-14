@@ -1,0 +1,6 @@
+const DIALOG_SUBMIT = 0;
+const DIALOG_WARNING = 1;
+const DIALOG_SUCCESS = 2;
+const DIALOG_ERROR = 3;
+const DIALOG_CAPCHA = 4;
+const DIALOG_INFORMATION = 5;
