@@ -1,0 +1,4 @@
+{
+    "environment": "prd",
+    "url_api": "https://gbuuvoice-api.pttplc.com/api/"
+}

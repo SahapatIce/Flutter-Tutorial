@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ios_dev",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "program": "portal/main_dev.dart",
+        },
+        {
+            "name": "ios_prd",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "program": "portal/main_prd.dart",
+        },
+        {
+            "name": "android_dev",
+            "request": "launch",
+            "program": "portal/main_dev.dart",
+            "flutterMode": "debug",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "dev",
+                "-v"
+            ]
+        },
+        {
+            "name": "android_prd",
+            "request": "launch",
+            "program": "portal/main_prd.dart",
+            "flutterMode": "debug",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "prd",
+                "-v"
+            ]
+        },
+    ]
+}

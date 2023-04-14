@@ -52,6 +52,21 @@ android {
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
+    flavorDimensions "flavor-type"
+    productFlavors {
+        dev {
+            dimension "flavor-type"
+            resValue "string", "app_name", "flutter_demo-dev"
+            applicationId "com.android.flutter_demo.dev"
+            applicationIdSuffix ""
+        }
+        prd {
+            dimension "flavor-type"
+            resValue "string", "app_name", "flutter_demo-prd"
+            applicationId "com.android.flutter_demo.prd"
+            applicationIdSuffix ""
+        }
+    }
 
     buildTypes {
         release {
